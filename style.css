@@ -98,8 +98,8 @@ height: 52px;
     border-radius: 8px;
 background: #FFF;
 color: rgba(19, 19, 24, 0.50);
- padding-left: 20px;
- padding-right: 15px;
+ 
+
 font-family: Mulish;
 font-size: 16px;
 font-style: normal;
@@ -119,9 +119,58 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 border: none;
-
 }
 .btn-primary >img{
    position: relative;
    top: 8px;
+}
+@media screen and (max-width:600px) {
+
+    body >header,main {
+ margin: 20px 10px ;
+}
+    .header-top{
+    flex-direction: column;
+   } 
+   nav ul{
+   
+    padding-right: 20px;
+    justify-content: flex-end;
+   }
+   nav li{
+    padding-left: 10px;
+    
+    
+   }
+   .head >p {
+    margin: 0px auto;
+    text-align: center;
+   }
+   .banner{
+    width: 410px;
+height: 500px;
+object-fit: cover;
+justify-content: center;
+   }
+   .banner h1{
+    font-size: 22px
+   }
+   .input{
+    margin-top: 10px;
+
+padding: 16px;
+flex-direction: column;
+
+gap: 6px;
+   }
+   .input .btn-primary{
+    width: 255px;
+height: 52px;
+
+   }
+   .input>.input-item{
+    width: 255px;
+height: 52px;
+
+   }
 }
