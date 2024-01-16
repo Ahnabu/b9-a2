@@ -289,6 +289,7 @@ background: rgba(41, 206, 246, 0.05);
     width: 1170px;
 height: 500px;
 background-image: url("B9A2-Hero-Travel/Images/Group\ 39.png");
+margin-bottom: 30px;
 
 }
 .deal-2{
@@ -348,12 +349,163 @@ line-height: normal;
     margin-top: 20px;
 }
 
+/* main forth started */
 
+.main-forth{
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-between;
+}
+.main-forth>div{
+    max-width: 530px;
+    border-radius: 5px;
+    height: 420px;
+}
+.forth-img iframe{
+    border-radius: 15px;
+    height: 350px;
+    border-radius: 16px;
+background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+}
+.forth-text .title{
+   margin: 0px;
+}
 
+/* main last section started */
+
+.main-last{
+    display: flex;
+    justify-content: space-between;
+}
+.newsletter{
+    width: 380px;
+   
+height: 320px;
+border-radius: 16px;
+border: 1px solid #FF5400;
+padding: 20px;
+}
+
+.newsletter .title{
+    font-size: 24px;
+    margin: 0px;
+}
+.newsletter >input{
+    width: 375px;
+height: 52px;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+border: none;
+padding-left: 15px;
+margin-bottom: 15px;
+
+}
+.newsletter >button{
+    width: 390px;
+    height: 52px;
+  
+}
+.last-img{
+
+    background-image: url("B9A2-Hero-Travel/Images/Rectangle\ 8\ \(1\).png");
+    background-repeat: no-repeat;
+    width: 672px;
+    height: 360px;
+    background-size: cover;
+    border-radius: 15px;
+    
+    
+}
+.last-img h2{
+    font-size: 32px;
+    color: #FFF;
+font-family: Mulish;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin: 10px;
+}
+.last-img p{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 15px;
+margin: 0px;
+}
+.discount{
+    width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+text-align: center;
+border-radius: 16px;
+background: #FF5400;
+position: relative;
+top: 53%;
+left: 50%;
+}
+
+/* footer section started */
+.footer{
+  
+    width: 1440px;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    gap: 30px;
+    padding: 90px 200px;
+}
+.footer span{
+    color: #FF5400;
+font-family: Mulish;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.footer >p{
+    
+    color: #131318;
+font-family: Mulish;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-top: 30px;
+}
+.footer .text{
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.icon{
+    margin-top: 30px;
+    font-size: 24px;
+}
+.footer .last{
+    color: #131318;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
 @media screen and (max-width:600px) {
-
+ body{
+    max-width: 400px;
+ }
     body >header,main {
- margin: 20px 10px ;
+ margin: 10px ;
+ padding: 5px;
 }
     .header-top .bar{
        position: relative;
@@ -374,7 +526,8 @@ object-fit: cover;
 
    }
    .banner h1{
-    font-size: 22px
+    font-size: 22px;
+    margin-top: 30px;
    }
    .input{
     margin-top: 10px;
@@ -417,9 +570,12 @@ object-fit: cover;
    .text{
     font-size: 14px;
    }
+   .main-third{
+    max-width: 335px;
+   }
    .rectangle{
     display: block;
-    width:  375px;
+    width:  335px;
  
    }
    .rectangle >div{
@@ -429,7 +585,7 @@ object-fit: cover;
 padding: 10px;
 }
 .deal-1, .deal-2,.deal-3{
-    width: 335px;
+    width: 350px;
 height: 500px;
 
 }
@@ -463,5 +619,75 @@ height: 40px;
 }
 .rectangle-3{
     margin: 0px;
+}
+.deals> .btn-primary{
+    display: none;
+}
+.main-forth{
+    display: block;
+    margin-top: 150px;
+}
+    .forth-img{
+        max-width: 355px;
+    height: 200px;
+    }
+.forth-img iframe {
+    max-width: 350px;
+    height: 200px;
+}
+.main-forth >.forth-text {
+    max-width: 335px;
+    height: 400px;
+}
+.main-last{
+    display: block;
+}
+.newsletter{
+    width: 335px;
+height: 353px;
+position: relative;
+top: -90px;
+}
+.newsletter >input{
+    width: 274px;
+    height: 52px;
+    flex-shrink: 0;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+border: none;
+padding-left: 15px;
+margin-bottom: 15px;
+
+}
+.newsletter > .btn-primary{
+    width: 288px;
+height: 52px;
+
+}
+.last-img {
+    width: 375px;
+height: 300px;
+
+}
+.last-img .discount{
+    width: 214.023px;
+height: 79.268px;
+transform: rotate(-19.628deg);
+flex-shrink: 0;
+left: 42%;
+top: 63%;
+}
+.discount .title{
+    font-size: 21px;
+}
+.discount p{
+    font-size: 15px;
+}
+.footer{
+    width: 335px;
+height: 400px;
+
+    background: rgba(19, 19, 24, 0.05);
+    padding: 10px 30px;
 }
 }
